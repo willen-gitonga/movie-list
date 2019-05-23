@@ -48,7 +48,7 @@ def create_app(config_name):
 
 
 
-    # configure UploadSet
+    # configure UploadSetalias doflask="python3.6 -m venv --without-pip virtual && source virtual/bin/activate && curl https://bootstrap.pypa.io/get-pip.py | python3 && pip install flask && pip install flask-bootstrap && pip install flask-script && pip install flask-wtf && pip install flask-migrate && pip install flask-login && pip install flask-uploads && pip install flask-mail && pip install flask-simplemde markdown2 && pip install flask-SQLAlchemy && pip install psycopg2 && echo '../.. Finished flask installations ../..' && python3.6 -m  pip install gunicorn && pip freeze > requirements.txt"
     configure_uploads(app,photos)
 
 
